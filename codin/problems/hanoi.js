@@ -3,11 +3,11 @@
 
 **8 disks:**
 
-![8 disks](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/600px-Tower_of_Hanoi.jpeg)
+![Example: 8 disks](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Tower_of_Hanoi.jpeg/300px-Tower_of_Hanoi.jpeg)
 
 **6 disks:**
 
-![6 disks](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif/240px-Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif)
+![Example: 6 disks](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif/300px-Iterative_algorithm_solving_a_6_disks_Tower_of_Hanoi.gif)
 
 Move the entire stack from rod 1 to rod 3,
 using rod 2 as an auxiliary rod,
