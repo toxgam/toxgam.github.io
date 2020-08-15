@@ -24,7 +24,7 @@ const caseOneSol = (str) => {
   // Dictionary used to mark if a character has appeared
   const flag = {}
 
-  for (c of str) {
+  for (const c of str) {
     // If character c has appeared, return true
     if (flag[c]) {
       return false
@@ -38,8 +38,8 @@ const caseOneSol = (str) => {
 const caseTwoSol = (str) => {
   const n = str.length
 
-  for (i = 0; i < n; i++) {
-    for (j = i + 1; j < n; j++) {
+  for (let i = 0; i < n; i++) {
+    for (let j = i + 1; j < n; j++) {
       if (str[i] === str[j]) return false
     }
   }

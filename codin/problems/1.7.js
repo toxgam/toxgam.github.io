@@ -15,8 +15,8 @@ with i, j <= (n - 1) / 2
 const rotateMatrix = (arr) => {
   const n = arr.length
 
-  for (i = 0; i <= (n - 1) / 2; i++) {
-    for (j = 0; j <= (n - 1) / 2; j++) {
+  for (let i = 0; i <= (n - 1) / 2; i++) {
+    for (let j = 0; j <= (n - 1) / 2; j++) {
       const tmp = arr[i][j]
       arr[i][j] = arr[n - i - 1][j]
       arr[n - i - 1][j] = arr[n - i - 1][n - j - 1]

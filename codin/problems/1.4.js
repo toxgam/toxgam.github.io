@@ -15,22 +15,23 @@ Example
 Calculate the array of occurences for each character in the string.
 Count number of character has odd occurences.
 If it is not greater than 1, the string is permutation of palindrome.
-
 */
 
 const isPalindromePermutation = (str) => {
   const occurences = {}
 
-  for (item of str) if (item !== ' ') {
-    const c = item.toUpperCase()
+  for (const item of str) {
+    if (item !== ' ') {
+      const c = item.toUpperCase()
 
-    if (!occurences[c]) occurences[c] = 1
-    else occurences[c] += 1
+      if (!occurences[c]) occurences[c] = 1
+      else occurences[c] += 1
+    }
   }
 
   let countOdd = 0
 
-  for (key in occurences) {
+  for (const key in occurences) {
     countOdd += occurences[key] % 2
   }
 

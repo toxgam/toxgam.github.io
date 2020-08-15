@@ -16,7 +16,7 @@ these two array with each other
 const count = (str) => {
   const result = {}
 
-  for (c of str) {
+  for (const c of str) {
     if (!result[c]) result[c] = 1
     else result[c] += 1
   }
@@ -30,7 +30,7 @@ const isPermutation = (str1, str2) => {
 
   if (count1.length != count2.length) return false
 
-  for (key in count1) {
+  for (const key in count1) {
     if (!count2[key] || count1[key] !== count2[key]) return false
   }
 

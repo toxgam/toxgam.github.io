@@ -31,7 +31,7 @@ class Node {
 
 const toLinkedList = (arr) => {
   let head = null
-  for (item of arr.reverse()) {
+  for (const item of arr.reverse()) {
     head = new Node(item, head)
   }
   return head

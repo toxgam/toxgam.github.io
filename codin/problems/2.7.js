@@ -25,7 +25,7 @@ class Node {
 
 const toLinkedList = (arr, tail) => {
   let head = tail ? tail : null
-  for (item of arr.reverse()) {
+  for (const item of arr.reverse()) {
     head = new Node(item, head)
   }
   return head
@@ -55,11 +55,11 @@ const intersect = (head1, head2) => {
   let curr1 = head1
   let curr2 = head2
 
-  for (i = 0; i < len1 - len2; i++) {
+  for (let i = 0; i < len1 - len2; i++) {
     curr1 = curr1.next
   }
 
-  for (i = 0; i < len2 - len1; i++) {
+  for (let i = 0; i < len2 - len1; i++) {
     curr2 = curr2.next
   }
 

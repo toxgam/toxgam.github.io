@@ -19,8 +19,8 @@ const zeroMatrix = (arr) => {
   const containZeroCol = Array(m).fill(false)
   const containZeroRow = Array(n).fill(false)
 
-  for (i = 0; i < m; i++) {
-    for (j = 0; j < n; j++) {
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
       if (arr[i][j] === 0) {
         containZeroRow[i] = true
         containZeroCol[j] = true
@@ -28,8 +28,8 @@ const zeroMatrix = (arr) => {
     }
   }
 
-  for (i = 0; i < m; i++) {
-    for (j = 0; j < n; j++) {
+  for (let i = 0; i < m; i++) {
+    for (let j = 0; j < n; j++) {
       if (containZeroRow[i] || containZeroCol[j]) {
         arr[i][j] = 0
       }

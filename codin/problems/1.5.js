@@ -27,7 +27,7 @@ Otherwise return false.
 const count = (str) => {
   const result = {}
 
-  for (c of str) {
+  for (const c of str) {
     if (!result[c]) result[c] = 1
     else result[c] += 1
   }
@@ -38,7 +38,7 @@ const count = (str) => {
 const diff = (count1, count2) => {
   let result = 0
 
-  for (key in count1) {
+  for (const key in count1) {
     if (!count2[key]) result += count1[key]
     else result += Math.max(count1[key] - count2[key], 0)
   }

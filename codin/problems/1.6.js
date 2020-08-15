@@ -26,7 +26,7 @@ const stringCompression = (str) => {
   let prevChar = undefined
   let prevCharCount = 0
 
-  for (e of arr) {
+  for (const e of arr) {
     if (e !== prevChar) {
       if (prevChar) {
         result.push(prevChar)

@@ -26,7 +26,7 @@ class Node {
 
 const toLinkedList = (arr, tail) => {
   let head = tail ? tail : null
-  for (item of arr.reverse()) {
+  for (const item of arr.reverse()) {
     head = new Node(item, head)
   }
   return head
@@ -35,7 +35,7 @@ const toLinkedList = (arr, tail) => {
 const toCircleLinkedList = (arr) => {
   let head = null
   let tail = null
-  for (item of arr.reverse()) {
+  for (const item of arr.reverse()) {
     head = new Node(item, head)
     if(tail === null) tail = head
   }
