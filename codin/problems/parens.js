@@ -27,7 +27,7 @@ function check(string) {
   let count = 0
 
   for (let i = 0; i < string.length; i++) {
-    let char = string[i]
+    const char = string[i]
 
     if (char === '(')
       count++

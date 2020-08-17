@@ -82,5 +82,5 @@ function hanoi(numDiscs, src, aux, dst) {
   }
 }
 
-// Big problem, with 6 disks
-hanoi(6, 'rod 1', 'rod 2', 'rod 3')
+// Small problem, with 3 disks
+hanoi(3, 'rod 1', 'rod 2', 'rod 3')
