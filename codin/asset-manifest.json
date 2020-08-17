@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/codin/static/css/main.bca77fa9.chunk.css",
-    "main.js": "/codin/static/js/main.801beda7.chunk.js",
+    "main.css": "/codin/static/css/main.fd5367b4.chunk.css",
+    "main.js": "/codin/static/js/main.6a5c25b2.chunk.js",
     "runtime-main.js": "/codin/static/js/runtime-main.86b4d9ae.js",
     "static/js/2.85a4e54b.chunk.js": "/codin/static/js/2.85a4e54b.chunk.js",
     "mode-puppet.js": "/codin/01218ef0aeac06bfc3a9e6e4383904b4.js",
@@ -419,14 +419,14 @@
     "mode-groovy.js": "/codin/fe6efc8bf7b948aa275d980518b286b7.js",
     "theme-gruvbox.js": "/codin/feff703ce532f20391dfed8199b6971e.js",
     "index.html": "/codin/index.html",
-    "precache-manifest.e5e2f686b5eb8181ba6dd0b7d80f105d.js": "/codin/precache-manifest.e5e2f686b5eb8181ba6dd0b7d80f105d.js",
+    "precache-manifest.ae3f72c96064c76b011220b5cf4ff8c5.js": "/codin/precache-manifest.ae3f72c96064c76b011220b5cf4ff8c5.js",
     "service-worker.js": "/codin/service-worker.js",
     "static/js/2.85a4e54b.chunk.js.LICENSE.txt": "/codin/static/js/2.85a4e54b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.86b4d9ae.js",
     "static/js/2.85a4e54b.chunk.js",
-    "static/css/main.bca77fa9.chunk.css",
-    "static/js/main.801beda7.chunk.js"
+    "static/css/main.fd5367b4.chunk.css",
+    "static/js/main.6a5c25b2.chunk.js"
   ]
 }
