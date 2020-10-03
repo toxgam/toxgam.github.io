@@ -1,4 +1,4 @@
-function urlify(chars, len) {
+function urlify(chars: string[], len: number) {
   let countSpace = 0
   let endURL = 0
 

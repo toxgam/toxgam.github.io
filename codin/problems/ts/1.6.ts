@@ -1,9 +1,9 @@
-function stringCompression(str) {
+function stringCompression(str: string): string {
   const arr = Array.from(str)
 
-  const result = []
-  let prevChar = ''
-  let prevCharCount = 0
+  const result: (string | number)[] = []
+  let prevChar: string | number = ''
+  let prevCharCount: number = 0
 
   for (const e of arr) {
     if (e !== prevChar) {

@@ -13,12 +13,12 @@ const toLinkedList = (arr, tail) => {
   return head
 }
 
-const toCircleLinkedList = (arr) => {
+const toCircularLinkedList = (arr) => {
   let head = null
   let tail = null
   for (const item of arr.reverse()) {
     head = new Node(item, head)
-    if(tail === null) tail = head
+    if (tail === null) tail = head
   }
   tail.next = head
   return head
@@ -37,7 +37,8 @@ const detectLoop = (head) => {
   return null
 }
 
-const circle = toCircleLinkedList([1, 2, 3])
+const circle = toCircularLinkedList([1, 2, 3])
 const list = toLinkedList([4, 5], circle)
 
-console.log(detectLoop(list))
+const circleStart = detectLoop(list)
+console.log(circleStart.data)

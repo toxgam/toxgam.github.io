@@ -1,4 +1,4 @@
-const CLOSES = {
+const CLOSES: {[key: string]: string} = {
   '[': ']',
   '(': ')',
   '{': '}'
@@ -6,8 +6,8 @@ const CLOSES = {
 
 const OPENS = Object.keys(CLOSES)
 
-function check(str) {
-  const stack = []
+function check(str: string): boolean {
+  const stack: string[] = []
 
   for (const c of str) {
     if (OPENS.includes(c)) {
@@ -15,7 +15,7 @@ function check(str) {
     } else if (stack.length === 0) {
       return false
     } else {
-      const open = stack.pop()
+      const open = stack.pop()!
       const close = CLOSES[open]
       if (c !== close) {
         return false
