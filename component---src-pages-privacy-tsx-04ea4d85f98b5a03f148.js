@@ -1,0 +1,1 @@
+(self.webpackChunktoxgam_hp=self.webpackChunktoxgam_hp||[]).push([[831],{3487:function(e,t,a){"use strict";a.r(t);var l=a(7294),n=a(7306);t.default=function(){return l.createElement(n.Z,null,l.createElement("h2",null,"Privacy Policy"),l.createElement("p",null,"Toxgam web site and apps do not collect your user data (cookie, IP address, email etc.)."))}}}]);
