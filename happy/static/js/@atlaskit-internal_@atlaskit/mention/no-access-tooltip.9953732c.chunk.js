@@ -1,0 +1,1 @@
+(this["webpackJsonphappy-author"]=this["webpackJsonphappy-author"]||[]).push([[36],{3202:function(n,t,e){"use strict";e.r(t),e.d(t,"NoAccessTooltip",(function(){return i}));var a=e(2111),r=e(0),o=e.n(r),c=e(275),i=function(n){var t=n.name,e=n.children;return o.a.createElement(c.b,{values:{name:t}},(function(n){return o.a.createElement(a.a,{content:n,position:"right"},e)}))}}}]);
