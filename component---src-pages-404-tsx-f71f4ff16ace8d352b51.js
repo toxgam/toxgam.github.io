@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktoxgam_hp=self.webpackChunktoxgam_hp||[]).push([[218],{2513:function(e,t,n){n.r(t);var l=n(7294);t.default=()=>l.createElement("main",null,l.createElement("title",null,"Not found"),l.createElement("h1",null,"Page not found"))}}]);
