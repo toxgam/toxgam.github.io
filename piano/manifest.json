@@ -2,7 +2,7 @@
   "name": "Piano Sheet Copilot",
   "short_name": "Piano Copilot",
   "description": "Interactive piano sheet music learning app with playback and visualization",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3880ff",
