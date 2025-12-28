@@ -1,0 +1,26 @@
+{
+  "name": "Piano Sheet Copilot",
+  "short_name": "Piano Copilot",
+  "description": "Interactive piano sheet music learning app with playback and visualization",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3880ff",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "music"],
+  "screenshots": []
+}
