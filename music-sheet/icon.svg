@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Background -->
+  <rect width="256" height="256" rx="32" fill="#F3F4F6"/>
+
+  <!-- Music Sheet -->
+  <rect x="28" y="28" width="136" height="176" rx="14" fill="#FFFFFF"/>
+
+  <!-- Staff Lines -->
+  <g stroke="#94A3B8" stroke-width="3">
+    <line x1="46" y1="76" x2="146" y2="76"/>
+    <line x1="46" y1="92" x2="146" y2="92"/>
+    <line x1="46" y1="108" x2="146" y2="108"/>
+    <line x1="46" y1="124" x2="146" y2="124"/>
+    <line x1="46" y1="140" x2="146" y2="140"/>
+  </g>
+
+  <!-- Notes -->
+  <g fill="#4F46E5">
+    <circle cx="88" cy="116" r="7"/>
+    <rect x="94" y="80" width="5" height="36" rx="2"/>
+    <circle cx="118" cy="100" r="7"/>
+    <rect x="124" y="64" width="5" height="36" rx="2"/>
+  </g>
+
+  <!-- Piano Body -->
+  <rect x="80" y="156" width="148" height="56" rx="10" fill="#E5E7EB"/>
+
+  <!-- White Keys -->
+  <g stroke="#9CA3AF" stroke-width="2">
+    <line x1="101" y1="156" x2="101" y2="212"/>
+    <line x1="122" y1="156" x2="122" y2="212"/>
+    <line x1="143" y1="156" x2="143" y2="212"/>
+    <line x1="164" y1="156" x2="164" y2="212"/>
+    <line x1="185" y1="156" x2="185" y2="212"/>
+    <line x1="206" y1="156" x2="206" y2="212"/>
+  </g>
+
+  <!-- Black Keys -->
+  <g fill="#111827">
+    <rect x="108" y="156" width="10" height="32" rx="2"/>
+    <rect x="130" y="156" width="10" height="32" rx="2"/>
+    <rect x="160" y="156" width="10" height="32" rx="2"/>
+    <rect x="182" y="156" width="10" height="32" rx="2"/>
+    <rect x="204" y="156" width="10" height="32" rx="2"/>
+  </g>
+
+  <!-- Mango with gradient and leaf -->
+  <defs>
+    <linearGradient id="mangoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mango body -->
+  <path
+    d="
+      M180 32
+      C210 36, 218 62, 210 88
+      C204 108, 184 118, 164 108
+      C148 98, 150 70, 162 50
+      C172 38, 178 34, 180 32
+      Z"
+    fill="url(#mangoGrad)"
+    stroke="#111"
+    stroke-width="3"
+  />
+
+  <!-- Highlight -->
+  <path
+    d="M170 40 C172 36, 186 38, 180 54"
+    fill="none"
+    stroke="#FEF3C7"
+    stroke-width="2"
+    opacity="0.7"
+  />
+
+  <!-- Leaves (2 leaves, curved) -->
+  <path d="M168 28 C166 18, 178 16, 182 26" fill="#16A34A"/>
+  <path d="M176 30 C174 20, 186 18, 190 28" fill="#16A34A"/>
+</svg>
