@@ -1,0 +1,169 @@
+<svg width="1250" height="860" viewBox="0 0 1250 860" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+      font-weight: bold;
+      fill: #222;
+    }
+
+    .subtitle {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      fill: #444;
+    }
+
+    .axis {
+      stroke: #333;
+      stroke-width: 2;
+    }
+
+    .grid {
+      stroke: #ddd;
+      stroke-width: 1;
+    }
+
+    .label {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      fill: #222;
+    }
+
+    .small {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      fill: #555;
+    }
+
+    .student {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      fill: #111;
+    }
+
+    .internal {
+      fill: #4F81BD;
+    }
+
+    .exam {
+      fill: #F2B134;
+    }
+
+    .moderated {
+      fill: #C0504D;
+    }
+
+    .final {
+      fill: #9BBB59;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white"></rect>
+
+  <!-- Title -->
+  <text x="625" y="40" text-anchor="middle" class="title">
+    HSC Moderation Example: Students A, B, C
+  </text>
+
+  <!-- Compact Balanced Process Legend -->
+  <text x="185" y="95" class="subtitle" fill="#4F81BD">Internal Assessment</text>
+  <text x="430" y="95" class="subtitle">→</text>
+
+  <text x="465" y="95" class="subtitle" fill="#F2B134">HSC Exam</text>
+  <text x="610" y="95" class="subtitle">→</text>
+
+  <text x="645" y="95" class="subtitle" fill="#C0504D">Moderated Assessment</text>
+  <text x="905" y="95" class="subtitle">→</text>
+
+  <text x="940" y="95" class="subtitle" fill="#9BBB59">Final HSC Mark</text>
+
+  <!-- Axes -->
+  <line x1="120" y1="700" x2="1130" y2="700" class="axis"></line>
+  <line x1="120" y1="150" x2="120" y2="700" class="axis"></line>
+
+  <!-- Grid -->
+  <g>
+    <line x1="120" y1="150" x2="1130" y2="150" class="grid"></line>
+    <line x1="120" y1="260" x2="1130" y2="260" class="grid"></line>
+    <line x1="120" y1="370" x2="1130" y2="370" class="grid"></line>
+    <line x1="120" y1="480" x2="1130" y2="480" class="grid"></line>
+    <line x1="120" y1="590" x2="1130" y2="590" class="grid"></line>
+    <line x1="120" y1="700" x2="1130" y2="700" class="grid"></line>
+  </g>
+
+  <!-- Y-axis labels -->
+  <text x="80" y="155" class="label">100</text>
+  <text x="90" y="265" class="label">80</text>
+  <text x="90" y="375" class="label">60</text>
+  <text x="90" y="485" class="label">40</text>
+  <text x="90" y="595" class="label">20</text>
+  <text x="98" y="705" class="label">0</text>
+
+  <!-- Axis title -->
+  <text x="35" y="430" transform="rotate(-90 35 430)" class="label">
+    Marks
+  </text>
+
+  <!-- Student Labels -->
+  <text x="270" y="740" text-anchor="middle" class="student">Student A</text>
+  <text x="620" y="740" text-anchor="middle" class="student">Student B</text>
+  <text x="970" y="740" text-anchor="middle" class="student">Student C</text>
+
+  <!-- STUDENT A -->
+  <rect x="170" y="161" width="40" height="539" class="internal"></rect>
+  <rect x="220" y="260" width="40" height="440" class="exam"></rect>
+  <rect x="270" y="150" width="40" height="550" class="moderated"></rect>
+  <rect x="320" y="205" width="40" height="495" class="final"></rect>
+
+  <text x="190" y="146" text-anchor="middle" class="label">98</text>
+  <text x="240" y="245" text-anchor="middle" class="label">80</text>
+  <text x="290" y="135" text-anchor="middle" class="label">100</text>
+  <text x="340" y="190" text-anchor="middle" class="label">90</text>
+
+  <!-- STUDENT B -->
+  <rect x="520" y="166" width="40" height="534" class="internal"></rect>
+  <rect x="570" y="150" width="40" height="550" class="exam"></rect>
+  <rect x="620" y="156" width="40" height="544" class="moderated"></rect>
+  <rect x="670" y="153" width="40" height="547" class="final"></rect>
+
+  <text x="540" y="151" text-anchor="middle" class="label">97</text>
+  <text x="590" y="135" text-anchor="middle" class="label">100</text>
+  <text x="640" y="141" text-anchor="middle" class="label">99</text>
+  <text x="690" y="138" text-anchor="middle" class="label">99.5</text>
+
+  <!-- STUDENT C -->
+  <rect x="870" y="370" width="40" height="330" class="internal"></rect>
+  <rect x="920" y="315" width="40" height="385" class="exam"></rect>
+  <rect x="970" y="315" width="40" height="385" class="moderated"></rect>
+  <rect x="1020" y="315" width="40" height="385" class="final"></rect>
+
+  <text x="890" y="355" text-anchor="middle" class="label">60</text>
+  <text x="940" y="300" text-anchor="middle" class="label">70</text>
+  <text x="990" y="300" text-anchor="middle" class="label">70</text>
+  <text x="1040" y="300" text-anchor="middle" class="label">70</text>
+
+  <!-- Legend -->
+  <rect x="760" y="120" width="24" height="24" class="internal"></rect>
+  <text x="795" y="138" class="label">Internal Assessment</text>
+
+  <rect x="760" y="155" width="24" height="24" class="exam"></rect>
+  <text x="795" y="173" class="label">HSC Exam Mark</text>
+
+  <rect x="760" y="190" width="24" height="24" class="moderated"></rect>
+  <text x="795" y="208" class="label">Moderated Assessment</text>
+
+  <rect x="760" y="225" width="24" height="24" class="final"></rect>
+  <text x="795" y="243" class="label">Final HSC Mark</text>
+
+  <!-- Formula -->
+  <text x="120" y="790" class="label">
+    Final HSC Mark = (Moderated Assessment + HSC Exam Mark) ÷ 2
+  </text>
+
+  <!-- Notes -->
+  <text x="120" y="820" class="small">
+    Student B's exceptional HSC exam result lifts the moderation scale for the cohort, while A and B remain close because their internal marks were nearly tied.
+  </text>
+</svg>
