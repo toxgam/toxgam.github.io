@@ -1,1 +1,0 @@
-export{U as decodePngMetadata,H as encodePngMetadata}from"./ExcalidrawCanvas-Bu4izmPR.js";
